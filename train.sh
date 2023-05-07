@@ -1,7 +1,7 @@
 python train.py \
     --workers 8 \
     --device 0 \
-    --batch-size 20 \
+    --batch-size 25 \
     --data data/coco.yaml \
     --img 640 640 \
     --cfg cfg/training/yolov7.yaml \
